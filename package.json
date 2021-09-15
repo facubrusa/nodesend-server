@@ -1,6 +1,9 @@
 {
   "name": "nodesend-server",
   "version": "1.0.0",
+  "engines": {
+    "node": "14.17.0"
+  },
   "description": "Proyect similar to FirefoxSend with Node and React",
   "main": "index.js",
   "scripts": {

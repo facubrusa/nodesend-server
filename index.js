@@ -9,10 +9,10 @@ const app = express();
 connectDB();
 
 // Habilite cors
-const configCors = {
+/* const configCors = {
     origin: process.env.FRONTEND_URL
-}
-app.use( cors(configCors) );
+} */
+app.use( cors() );
 // Port of the server
 const port = process.env.PORT || 4000;
 
